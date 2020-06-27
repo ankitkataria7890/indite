@@ -221,7 +221,7 @@ padding-top:20px;
   color:rgba(225,225,225,0.5);
   float:left;
   }
-@media screen and(max-width:300px){
+/*@media screen and(max-width:300px){
 .row{
 flex-direction:column;}
 }
@@ -230,7 +230,7 @@ flex-direction:column;}
 .index a {float:none;
 width:100%;}
 }
-
+*/
 .vernav{
 display:block;
 padding:5px;
@@ -395,5 +395,46 @@ padding-right:50px;
 color:rgba(225,225,225,0.5);
 float:left;
 }
+ul.index a.icon {
+  display: none;
+}
 
-</style>
+
+@media screen and (max-width: 600px) {
+   ul.index li a:not(.active ) {display: none;}
+  ul.index a.icon {
+    float: right;
+    display: block;
+    padding:2.2%;
+  }
+}
+
+#header{
+padding:10%;
+height:unset;}
+
+@media screen and (max-width: 600px) {
+  
+  ul.index.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 23.3%;
+  }
+ul.index.responsive.sticky .icon {
+    position: absolute;
+    right: 0;
+    top: 2.5%;
+  }
+   
+  ul.index.responsive li {
+    float:unset;
+    display: block;
+    text-align: left;
+  }
+
+ ul.index.responsive li a{
+    float:none;
+    display: block;
+    text-align: left;
+  }
+
