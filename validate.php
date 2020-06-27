@@ -14,7 +14,7 @@ $num=mysqli_num_rows($h);
 if($num==0){
   echo "<script>
              alert('Account Not Exist \\nPlease SIGNUP');
-             location.replace('https://indite.herokuapp.com/signu.php');
+             location.replace('https://qtsindite.herokuapp.com/signu.php');
               
      </script>";
      
@@ -23,7 +23,7 @@ mysqli_close($con);
 else{
 $_SESSION['username']=$username;
   
-               header('Location:http://indite.herokuapp.com/index.php');
+               header('Location:http://qtsindite.herokuapp.com/index.php');
      
 mysqli_close($con);
 }
