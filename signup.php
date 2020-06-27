@@ -15,13 +15,13 @@ mysqli_close($con);
  if($z){
  echo "<script>
              alert('Account successful registered');  
-  location.replace('https://indite.herokuapp.com/login.php');   
+  location.replace('https://qtsindite.herokuapp.com/login.php');   
   </script>";
 }
 }
  echo "<script>
              alert('Username OR Password Exist//n Fill Another Credentials');  
- location.replace('https://indite.herokuapp.com/signu.php'); 
+ location.replace('https://qtsindite.herokuapp.com/signu.php'); 
   </script>";
 
 mysqli_close($con);
