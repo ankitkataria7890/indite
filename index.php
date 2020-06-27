@@ -10,6 +10,8 @@ include 'php/index_fetch.php';
 <!doctype html>
 <html>
 <head>
+<meta http-equiv="refresh" content="30">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>qts/indite</title>
 <script type="text/javascript" src="script/refresh.js"></script>
 <link rel="stylesheet" type="text/css" href="css/index.css">
