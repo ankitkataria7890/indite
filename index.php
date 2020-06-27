@@ -15,6 +15,7 @@ include 'php/index_fetch.php';
 <title>qts/indite</title>
 <script type="text/javascript" src="script/refresh.js"></script>
 <link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libbs/font-awesome/4.6.3/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Black+And+White+Picture">
