@@ -46,7 +46,7 @@ include 'php/index_fetch.php';
 <li  onclick="openForm();" style="padding:10px 10px 0 10px; float:right;cursor:pointer;  class="right" ">Account
 <div class="form-popup" id="myForm" style="cursor:context-menu;">
   <div  class="form-container">
-    <img src="avatar.png" alt="Avatar" style="align:center" class="avatar"> <span style="float:right;"><a href="account.php"><b>View</b></a></span><br>
+    <img src="gallery/avatar.png" alt="Avatar" style="align:center" class="avatar"> <span style="float:right;"><a href="account.php"><b>View</b></a></span><br>
     <h3><b><br>username</b> : <?php echo $username; ?> <br>
         <b>Follower</b> &nbsp; : <?php echo $follower; ?><br>
     <b>Following</b> : <?php echo $following; ?><br>
