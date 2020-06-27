@@ -95,7 +95,7 @@ function autocomplete(inp, arr) {
       closeAllLists(e.target);
   });
 }
-var countries = [
+/*var countries = [
 <?php 
  $o='"';
 $d=',';
@@ -103,5 +103,5 @@ while($sff=mysqli_fetch_array($sfc)){
 echo $o.$sff['username'].$o.$d;
 }?>"xyzabc"];
 
-autocomplete(document.getElementById("myInput"), countries);
+autocomplete(document.getElementById("myInput"), countries);*/
 
