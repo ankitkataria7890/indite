@@ -15,7 +15,7 @@
 
 <div class="container">
 
-  <form action="validate.php" method="post">
+  <form action="php/validate.php" method="post">
     <div class="row">
       <div style="text-align:center; font-size:40px; opacity:1;">Log In</div>
 <br>
