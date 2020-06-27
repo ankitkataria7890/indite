@@ -12,7 +12,7 @@
 <span style=" float:right;padding=20px; "><button class="button button1" onclick="goBack()"><i class="material-icons" style="font-size:50px; color:black; opacity:0.4;">clear</i></button></span></a></p>
 
 <div class="container">
-  <form action="signup.php" method="post">
+  <form action="php/signup.php" method="post">
     <div class="row">
       <div style="text-align:center; font-size:40px; opacity:1;">Sign Up</div>
 <br>
