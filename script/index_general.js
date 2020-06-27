@@ -40,3 +40,11 @@ function footer(){
 function footergo(){
   document.getElementsByClassName("footer")[0].style.display = "none";
 }
+function myFunction() {
+  var x = document.getElementsByClassName("index")[0];
+  if (x.className === "index") {
+    x.className += " responsive";
+  } else {
+    x.className = "index";
+  }
+}
