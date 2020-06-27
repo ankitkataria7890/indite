@@ -51,7 +51,7 @@ include 'php/index_fetch.php';
         <b>Follower</b> &nbsp; : <?php echo $follower; ?><br>
     <b>Following</b> : <?php echo $following; ?><br>
       <b>Post</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <?php echo $pn; ?></h3>
-     <b><a href="logout.php">LOGOUT</a></b></h3>
+     <b><a href="php/logout.php">LOGOUT</a></b></h3>
   </div>
 </div>
 </li>
