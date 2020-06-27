@@ -89,7 +89,7 @@ Join us<br><br>
 <a href="#"><dfn title="twitter"><img src="https://img.icons8.com/bubbles/48/000000/twitter.png" alt="twitter"/></dfn></a>&nbsp;&nbsp;
 <br><br><br><br><br><span style="font-size:12px; font-weight:400;color:rgba(13, 26, 38,0.5);">Disclaimer: Legal information is not legal advice , <a href="disclaimer.php"style="color:rgb(153, 204, 255)">Read the disclaimer.</a><br>
 <span style="font-size:14px;line-height:200%;font-weight:400; color:rgba(13, 26, 38,0.5);"> Copyright c 2020 QTS XYZ, Inc. All rights reserverd. <a href="termsofuse.php" style="color:rgb(153, 204, 255)"> Terms of Use </a>|<a href="privacypolicy.php" style="color:rgb(153, 204, 255)"> Privacy Policy - REVISED</a></span>
-<br><br> <a href="aboutus.html">About Us | Team </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="user_blog.php">Blog </a>
+<br><br> <a href="aboutus.php">About Us | Team </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="user_blog.php">Blog </a>
 </center>
 </div>
 </body>
