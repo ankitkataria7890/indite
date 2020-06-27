@@ -407,11 +407,10 @@ ul.index a.icon {
     display: block;
     padding:2.2%;
   }
-}
-
 #header{
 padding:10%;
 height:unset;}
+}
 
 @media screen and (max-width: 600px) {
   
