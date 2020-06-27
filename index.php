@@ -140,7 +140,8 @@ function footergo(){
   
  
 </script>
-  <script type="text/javascript" src="index_autosearch.js">
+<script type="text/javascript" src="index_autosearch.js"></script>
+<script>
   var countries = [
 <?php 
  $o='"';
@@ -148,7 +149,6 @@ $d=',';
 while($sff=mysqli_fetch_array($sfc)){
 echo $o.$sff['username'].$o.$d;
 }?>"xyzabc"];
-
 autocomplete(document.getElementById("myInput"), countries);
 </script>
 
