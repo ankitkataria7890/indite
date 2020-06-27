@@ -21,10 +21,12 @@ include 'php/index_fetch.php';
 </head>
 <body>
 <p id="header" style="font-family: 'Black And White Picture', sans serif;"> <b>Let's THROW</b>
-<span style="float:right;margin-bottom:0px;margin-top:70px;margin-right:30px;">
-<button style="border:0px solid  white;font-size:15px; border-radius:2px;padding:5px;color:white;background:rgba(198,204,212,0.3);cursor:pointer;"onclick="footer();" ondblclick="footergo();"><h6>Bottom</h6></button></span></p>
-<div  style="height:80px;">
+  <span style="float:right;margin-bottom:0px;margin-top:70px;margin-right:30px;"></span></p>
+<div >
 <ul class="index" style="width:100%">
+<a href="javascript:void(0);" class="icon" onclick="myFunction()" >
+    <i class="fa fa-bars"></i>
+  </a>
 <li onclick="backhome();" ><a class="active" >Home</a></li>
 <li class="dropdown">
      <a  href="javascript:void(0)" class="dropbtn">Category</a>
@@ -32,7 +34,7 @@ include 'php/index_fetch.php';
           <a href="write.php">indite</a>
           <a href="voice.html">voice</a>
           <a href="art.html">illustration</a>
-          <a href="photo.html">photography</a>
+           <a href="photo.html">photography</a>
        </div>
     </li>
 <li class="dropdown">
@@ -45,18 +47,23 @@ include 'php/index_fetch.php';
     </li>
 <li><a  href="#challenge">Challenge</a></li>
 
-<li  onclick="openForm();" style="padding:10px 10px 0 10px; float:right;cursor:pointer;  class="right" ">Account
+
+<li ><a href="javascript:void(0)" onclick="openForm();"  cursor:pointer;  class="right" ">Account</a>
 <div class="form-popup" id="myForm" style="cursor:context-menu;">
   <div  class="form-container">
-    <img src="gallery/avatar.png" alt="Avatar" style="align:center" class="avatar"> <span style="float:right;"><a href="account.php"><b>View</b></a></span><br>
+    <img src="avatar.png" alt="Avatar" style="align:center" class="avatar"> <span style="float:right;"><a href="account.php"><b>View</b></a></span><br>
     <h3><b><br>username</b> : <?php echo $username; ?> <br>
         <b>Follower</b> &nbsp; : <?php echo $follower; ?><br>
     <b>Following</b> : <?php echo $following; ?><br>
       <b>Post</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <?php echo $pn; ?></h3>
-     <b><a href="php/logout.php">LOGOUT</a></b></h3>
+     <b><a href="logout.php">LOGOUT</a></b></h3>
   </div>
 </div>
 </li>
+<li onclick="footer();" ondblclick="footergo();"><a href="javascript:void(0)" >Bottom</a></li>
+<!--button style="border:0px solid  white; display:none;font-size:15px; border-radius:2px;padding:5px;color:white;background:rgba(198,204,212,0.3);cursor:pointer;"
+ onclick="footer();" ondblclick="footergo();"><h6>Bottom</h6></button-->
+
 <li  style="float:right">
 
 <form autocomplete="off" action="usersaccount.php" method="post">
@@ -68,7 +75,7 @@ include 'php/index_fetch.php';
 </form>
 
 </li>
-
+ 
 </ul>
 <button class="form-closeup" id="close" style="cursor:pointer" onclick="document.getElementById('myForm').style.display='none';document.getElementById('close').style.display='none';"><b>Close</b></button>
 <form id="users" action="usersaccount.php" method="post"></form>
