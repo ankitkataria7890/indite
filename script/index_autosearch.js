@@ -95,7 +95,7 @@ function autocomplete(inp, arr) {
       closeAllLists(e.target);
   });
 }
-var countries = [
+/*var countries = [
 <?php 
  $o='"';
 $d=',';
@@ -104,4 +104,4 @@ echo $o.$sff['username'].$o.$d;
 }?>"xyzabc"];
 
 autocomplete(document.getElementById("myInput"), countries);
-
+*/
