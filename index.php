@@ -6,6 +6,7 @@ header('Location: http://qtsindite.herokuapp.com/about.php');
 include 'php/index_fetch.php';
 
 ?>
+
 <!doctype html>
 <html>
 <head>
@@ -15,13 +16,11 @@ include 'php/index_fetch.php';
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libbs/font-awesome/4.6.3/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Black+And+White+Picture">
- 
-
 </head>
 <body>
 <p id="header" style="font-family: 'Black And White Picture', sans serif;"> <b>Let's THROW</b>
-  <span style="float:right;margin-bottom:0px;margin-top:70px;margin-right:30px;"><button style="border:0px solid  white;font-size:15px; border-radius:2px;padding:5px;color:white;background:rgba(198,204,212,0.3);cursor:pointer;"
- onclick="footer();" ondblclick="footergo();"><h6>Bottom</h6></button></span></p>
+<span style="float:right;margin-bottom:0px;margin-top:70px;margin-right:30px;">
+<button style="border:0px solid  white;font-size:15px; border-radius:2px;padding:5px;color:white;background:rgba(198,204,212,0.3);cursor:pointer;"onclick="footer();" ondblclick="footergo();"><h6>Bottom</h6></button></span></p>
 <div  style="height:80px;">
 <ul class="index" style="width:100%">
 <li onclick="backhome();" ><a class="active" >Home</a></li>
@@ -31,7 +30,7 @@ include 'php/index_fetch.php';
           <a href="write.php">indite</a>
           <a href="voice.html">voice</a>
           <a href="art.html">illustration</a>
-           <a href="photo.html">photography</a>
+          <a href="photo.html">photography</a>
        </div>
     </li>
 <li class="dropdown">
@@ -94,55 +93,12 @@ include 'php/index_content.php';
 <p style="text-align:center; font-size:10px;">Disclaimer: Legal information is not legal advice , <a href="disclaimer.php"style="color:rgb(153, 204, 255)">Read the disclaimer.</a></p>
 <p style="text-align:center; font-size:12px; color:rgba(225,225,225,0.8);"> Copyright c 2020 QTS XYZ, Inc. All rights reserverd. <a href="termsofuse.php" style="color:rgb(153, 204, 255)"> Terms of Use </a>|<a href="privacypolicy.php" style="color:rgb(153, 204, 255)"> Privacy Policy - REVISED</a></p>
 </div>
+
+
+<script type="text/javascript" src="script/index_general.js"></script>
+<script type="text/javascript" src="script/index_autosearch.js"></script>
 <script>
-window.onscroll = function() {index(),left()};
-var navbar = document.getElementsByClassName("index")[0];
-var sticky = navbar.offsetTop;
-
-function index() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-
-
-<!--var leftbar = document.getElementById("left");
-var leftsticky = leftbar.offsetTop;
-
-function left() {
-  if (window.pageYOffset >= leftsticky) {
-    leftbar.classList.add("leftsticky")
-  } else {
-    leftbar.classList.remove("leftsticky");
-  }
-}
--->
-function backhome() {
-document.body.scrollIntoView({behavior: 'smooth', block: 'start'});
-}
-
-function openForm() {
-  document.getElementById("myForm").style.display = "block";
-
-  document.getElementById("close").style.display = "block";
-}
-
-function footer(){
-  var x=document.getElementsByClassName("footer")[0];
- x.style.display="block";
-}
-
-function footergo(){
-  document.getElementsByClassName("footer")[0].style.display = "none";
-}
-  
- 
-</script>
-<script type="text/javascript" src="index_autosearch.js"></script>
-<script>
-  var countries = [
+var countries = [
 <?php 
  $o='"';
 $d=',';
