@@ -1,7 +1,7 @@
 <?php
 session_start();
 if(!isset($_SESSION['username']))
-header('Location: http://qtsindite.herokuapp.com/login.php');
+header('Location: http://qtsindite.herokuapp.com/about.php');
 ?>
 <?php
 header("Refresh:  300;url='REDIRECTION URI'");
