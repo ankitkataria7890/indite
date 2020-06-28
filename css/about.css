@@ -202,6 +202,7 @@ h3{
 background-size: unset;}
 .parallax1 .caption span.border{
   letter-spacing: unset;
+ font-size:20px;
 }
 .grid{
   grid-template-columns: auto;
