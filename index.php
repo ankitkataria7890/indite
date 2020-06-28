@@ -91,18 +91,19 @@ include 'php/index_content.php';
 </div>
 </div>
 
-<div class="footer" >
+<div class="footer">
 <ul style="list-style:none">
 <li> <a href="aboutus.php">About Us</a></li>
 <li> <a href="faqs.php">FAQs</a></li>
-<li> <a href="user_blog.php">Blog</a></li>
-<li style="float:right"> <a href="contact.php">Contact</a></li>
-<li style="float:right"> <a href="suggestion.php">Suggestion</a></li>
+<li> <a href="blog.php">Blog</a></li>
+<li id="right"> <a href="contact.php">Contact</a></li>
+<li id="right"> <a href="suggestion.php">Suggestion</a></li>
 </ul>
 <br>
-<p style="text-align:center; font-size:10px;">Disclaimer: Legal information is not legal advice , <a href="disclaimer.php"style="color:rgb(153, 204, 255)">Read the disclaimer.</a></p>
-<p style="text-align:center; font-size:12px; color:rgba(225,225,225,0.8);"> Copyright c 2020 QTS XYZ, Inc. All rights reserverd. <a href="termsofuse.php" style="color:rgb(153, 204, 255)"> Terms of Use </a>|<a href="privacypolicy.php" style="color:rgb(153, 204, 255)"> Privacy Policy - REVISED</a></p>
+<p class="bottom">Disclaimer: Legal information is not legal advice , <a href="disclaimer.php"style="color:rgb(153, 204, 255)">Read the disclaimer.</a></p>
+<p class="bottom" style="color:rgba(225,225,225,0.8);"> Copyright c 2020 QTS XYZ, Inc. All rights reserverd. <a href="termsofuse.php" style="color:rgb(153, 204, 255)"> Terms of Use </a>|<a href="privacypolicy.php" style="color:rgb(153, 204, 255)"> Privacy Policy - REVISED</a></p>
 </div>
+
 
 
 <script type="text/javascript" src="script/index_general.js"></script>
