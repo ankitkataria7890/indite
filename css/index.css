@@ -221,6 +221,9 @@ padding-top:20px;
   color:rgba(225,225,225,0.5);
   float:left;
   }
+.footer li a:hover{
+  color:white;
+  background: transparent;}
 /*@media screen and(max-width:300px){
 .row{
 flex-direction:column;}
@@ -406,8 +409,8 @@ ul.index a.icon {
 }
 #right{
 float: right;}
-#right:hover{
-  color:white;}
+
+
 
 @media screen and (max-width: 600px) {
    ul.index li a:not(.active ) {display: none;}
