@@ -312,7 +312,7 @@ input[type=submit]:hover {
   background-color: DodgerBlue !important; 
   color: #ffffff; 
 }
-<style>
+
 .grid-container {
   display: grid;
   grid-template-columns: auto;
@@ -404,6 +404,8 @@ font-size:12px;}
 ul.index a.icon {
   display: none;
 }
+#right{
+float: right;}
 
 @media screen and (max-width: 600px) {
    ul.index li a:not(.active ) {display: none;}
