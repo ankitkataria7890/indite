@@ -407,6 +407,15 @@ ul.index a.icon {
     display: block;
     padding:2.2%;
   }
+  .column{
+padding-left:unset;
+}
+.column.middle{
+max-width:unset;
+width:-webkit-fill-available;
+margin:2.5%;
+margin-top:10%;}
+
 #header{
 padding:10%;
 height:unset;}
