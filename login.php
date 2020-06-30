@@ -38,7 +38,7 @@
   <span> <a class="forgot" href="forgetpassword.php">Forgot password</a></span></div>
  <br> 
 <br><br>
-        <input  id="logbutton"  type="submit" value="Login">
+        <input  id="logbutton"  type="submit" name="validate" value="Login">
 
       </div>
       
@@ -71,7 +71,9 @@ function goBack() {
 }
 </script>
 <?php
+if(isset($_POST['validate']){
 include 'php/validate.php';
+}
 ?>
 </body>
 </html>
