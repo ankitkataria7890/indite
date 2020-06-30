@@ -71,7 +71,7 @@ function goBack() {
 }
 </script>
 <?php
-if(isset($_POST['validate']){
+if(isset($_POST['validate'])){
 include 'php/validate.php';
 }
 ?>
