@@ -15,7 +15,7 @@
 
 <div class="container">
 
-  <form action="php/validate.php" method="post">
+  <form action="" method="post">
     <div class="row">
       <div style="text-align:center; font-size:40px; opacity:1;">Log In</div>
 <br>
@@ -70,5 +70,8 @@ function goBack() {
   window.history.back();
 }
 </script>
+<?php
+include 'php/validate.php';
+?>
 </body>
 </html>
