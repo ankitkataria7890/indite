@@ -30,10 +30,10 @@ And so much more.<h6>All on &nbsp;&nbsp;indite.com</h6>
 </div>
 </div></div>
 <div class="textparallax" >
-  <center> <h1>Demo</h1></center>
-  Parallax scrolling is a web site trend where the background content is moved at a different speed than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.
-
-</div>
+  <center> <h1>About</h1></center>
+ To utilise the time during covid-19 when all we were locked at home . Started on working qtsindite.herokuapp.com , With the time we go so far that now we are presenting to you all our hardwork and time that we spent the whole day and night . It is a simple project that will allow you to post ,like, comments, write blogs and much more in coming versions or upgrade .
+ so, click on create your post and explore it . Thankyou :')
+<div>
 
 <div class="parallax2">
  <div class="caption">
@@ -41,6 +41,7 @@ And so much more.<h6>All on &nbsp;&nbsp;indite.com</h6>
   </div></div>
 <div  class="textparallax">
 <center>
+Shorter contents always attracts to more readers.
 Stand out with various background color and 
 designed fonts.
 </center>
@@ -48,8 +49,7 @@ designed fonts.
 <div class="parallax3"></div>
 <div  class="textparallax">
 <center>
-Stand out with various background color and 
-designed fonts.
+Caputred your moments and show them to your very close ones . Build your attractive POST/BLOG and showcase.
 </center>
 </div>
 <div id="simple2">
@@ -67,7 +67,7 @@ designed fonts.
 <img id="share" src="gif/share.gif"   style="opacity:0.7" alt="share">
 <h1 id="giphy"> Share </h1>
 <span style="color:rgb(124, 146, 86);">Share your collection or post with your friends
-on popular platforms without any hesitate. </span>
+on popular platforms without any hesitation. </span>
 </center>
 </div>
 <div><center>
