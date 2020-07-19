@@ -33,7 +33,7 @@ And so much more.<h6>All on &nbsp;&nbsp;indite.com</h6>
   <center> <h1>About</h1></center>
  To utilise the time during covid-19 when all we were locked at home . Started on working qtsindite.herokuapp.com , With the time we go so far that now we are presenting to you all our hardwork and time that we spent the whole day and night . It is a simple project that will allow you to post ,like, comments, write blogs and much more in coming versions or upgrade .
  so, click on create your post and explore it . Thankyou :')
-<div>
+</div>
 
 <div class="parallax2">
  <div class="caption">
