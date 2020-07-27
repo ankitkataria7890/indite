@@ -36,6 +36,6 @@ else
     }
 }
 }  
-header('Location: http://qtsindite.herokuapp.com/database.php');
+
        
 ?>
