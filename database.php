@@ -6,8 +6,11 @@ $dbname='image';
 $con=mysqli_connect($host,$dbuser,$dbpassword,$dbname);
 $r = "SELECT * FROM img "; 
 $rc=mysqli_query($con,$r);
+if($rc){
+echo "hii";}
 $row = mysqli_fetch_array($rc);
 $src=$row['data'];
+echo $src;
 ?>
 
 
