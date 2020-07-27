@@ -4,6 +4,10 @@ $dbuser='root';
 $dbpassword='';
 $dbname='image';
 $con=mysqli_connect($host,$dbuser,$dbpassword,$dbname);
+if(!$con){
+die('Not Connected to Server');
+}
+else{
 if(isset($_POST)){
     $name = $_FILES['file']['name']; 
     $size = $_FILES['file']['size']; 
@@ -36,6 +40,6 @@ else
     }
 }
 }  
-
+}
        
 ?>
