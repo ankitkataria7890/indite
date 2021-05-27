@@ -12,23 +12,8 @@
 
 </head>
 <body>
- <div>
- <img src="gallery/logo1.jpg" width="90px" height="70px" alt="logo" style="background:transparent; float:right">
-  <div class="dropdown" style="float:left;margin:1em 0 0 1em">
-    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-      Menu
-    </button>
-    <div class="dropdown-menu">
-      <a class="dropdown-item" href="#">Link 1</a>
-      <a class="dropdown-item" href="#">Link 2</a>
-      <a class="dropdown-item" href="#">Link 3</a>
-    </div>
-  </div>
-</div>
 
-
-
-<br><br>
+ <img src="gallery/logo1.jpg" width="100px" height="80px" alt="logo" style="background:transparent;t">
 <div id="one" >
   <center ><br><br>
   <p>Way to world of indite <br> write what you can think </p>
@@ -39,7 +24,16 @@
 
  <center>
 <div id="two">
-
+ <div class="dropdown" style="float:right;margin:1em 0 0 1em">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Menu
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Link 1</a>
+      <a class="dropdown-item" href="#">Link 2</a>
+      <a class="dropdown-item" href="#">Link 3</a>
+    </div>
+  </div>
 Build a post. Show your stuff. Start a blog<br>
 And so much more.<h6>All on &nbsp;&nbsp;indite.com</h6>
 </div>
