@@ -20,7 +20,7 @@
       <li><a href="#">JavaScript</a></li>
     </ul>
   </div>
-<img src="gallery/logo1.jpg" width="120px" height="100px" alt="logo" style="background:transparent; float:right">
+<!-- img src="gallery/logo1.jpg" width="120px" height="100px" alt="logo" style="background:transparent; float:right"-->
 
 <center >
 <div id="one" ><p>Way to world of indite <br> write what you can think </p>
