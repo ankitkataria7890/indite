@@ -12,9 +12,9 @@
 <style>
  .column {
   float: left;
-  width: 33.33%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  width: 50%;
+ 
+  /* Should be removed. Only for demonstration */
 }
  </style>
 </head>
@@ -46,7 +46,7 @@ And so much more.<h6>All on &nbsp;&nbsp;indite.com</h6>
       <a class="dropdown-item" href="#">Link 3</a>
     </div>
   </div>
-  <div class="dropdown" style="margin:1em 0 0 1em">
+  <div class="dropdown" style="float:right;margin:1em 0 0 1em">
     <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
       Menu
     </button>
