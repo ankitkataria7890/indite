@@ -14,7 +14,7 @@
 <body>
  <div>
  <img src="gallery/logo1.jpg" width="120px" height="100px" alt="logo" style="background:transparent; float:right">
-  <div class="dropdown" style="float:left;margin:1em 1em 0 0">
+  <div class="dropdown" style="float:left;margin:1em 0 0 1em">
     <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
       Menu
     </button>
