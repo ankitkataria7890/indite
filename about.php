@@ -3,12 +3,23 @@
 <head>
 <link rel="stylesheet" type="text/css" href="css/about.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 <title>About Us</title>
 
 </head>
 <body>
 <img src="gallery/logo1.jpg" width="120px" height="120px" alt="logo" style="background:transparent;">
+  <div class="dropdown" style="float:right">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">JavaScript</a></li>
+    </ul>
+  </div>
 
 <center >
 <div id="one" ><p>Way to world of indite <br> write what you can think </p>
