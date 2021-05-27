@@ -9,7 +9,14 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 <title>About Us</title>
-
+<style>
+ .column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+ </style>
 </head>
 <body>
 
@@ -24,7 +31,12 @@
 
  <center>
 <div id="two">
- <div class="dropdown" style="float:right;margin:1em 0 0 1em">
+ <div class="column">
+Build a post. Show your stuff. Start a blog<br>
+And so much more.<h6>All on &nbsp;&nbsp;indite.com</h6>
+</div>
+ <div class="column">
+  <div class="dropdown" style="margin:1em 0 0 1em">
     <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
       Menu
     </button>
@@ -34,9 +46,18 @@
       <a class="dropdown-item" href="#">Link 3</a>
     </div>
   </div>
-Build a post. Show your stuff. Start a blog<br>
-And so much more.<h6>All on &nbsp;&nbsp;indite.com</h6>
-</div>
+  <div class="dropdown" style="margin:1em 0 0 1em">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Menu
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Link 1</a>
+      <a class="dropdown-item" href="#">Link 2</a>
+      <a class="dropdown-item" href="#">Link 3</a>
+    </div>
+  </div>
+ </div>
+  </div>
 
 </center>
 <div id="simple1" >
