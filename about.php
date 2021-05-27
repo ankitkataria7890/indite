@@ -11,12 +11,7 @@
 
 </head>
 <body>
-  
-<img src="gallery/logo1.jpg" width="120px" height="100px" alt="logo" style="background:transparent; float:right">
-
-<center >
-<div id="one" >
-  <div class="dropdown" style=" margin:1em 0 0 1em ;float:left">
+ <div class="dropdown" style=" margin:1em 0 0 1em ;float:left">
     <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Menu
     <span class="caret"></span></button>
     <ul class="dropdown-menu">
@@ -24,7 +19,13 @@
       <li><a href="#">CSS</a></li>
       <li><a href="#">JavaScript</a></li>
     </ul>
+   <img src="gallery/logo1.jpg" width="120px" height="100px" alt="logo" style="background:transparent; float:right">
   </div>
+
+
+<center >
+<div id="one" >
+  
   <p>Way to world of indite <br> write what you can think </p>
  <h3>Unlock the mind and hands </h3>
 <button id="start" onclick="location.href='login.php'"><b>Create your post</b></button><br><br>
