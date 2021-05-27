@@ -8,7 +8,7 @@
 
 </head>
 <body>
-<img src="gallery/logo.jpg" width="120px" height="120px" alt="logo" style="background:transparent;">
+<img src="gallery/logo1.jpg" width="120px" height="120px" alt="logo" style="background:transparent;">
 
 <center >
 <div id="one" ><p>Way to world of indite <br> write what you can think </p>
