@@ -3,24 +3,29 @@
 <head>
 <link rel="stylesheet" type="text/css" href="css/about.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 <title>About Us</title>
 
 </head>
 <body>
- <div class="dropdown" style=" margin:1em 0 0 1em ;float:left">
-    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Menu
-    <span class="caret"></span></button>
-    <ul class="dropdown-menu">
-      <li><a href="#">HTML</a></li>
-      <li><a href="#">CSS</a></li>
-      <li><a href="#">JavaScript</a></li>
-    </ul>
-   <img src="gallery/logo1.jpg" width="120px" height="100px" alt="logo" style="background:transparent; float:right">
+ <div>
+ <img src="gallery/logo1.jpg" width="120px" height="100px" alt="logo" style="background:transparent; float:right">
+  <div class="dropdown" style="float:left;margin:1em 1em 0 0">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Menu
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Link 1</a>
+      <a class="dropdown-item" href="#">Link 2</a>
+      <a class="dropdown-item" href="#">Link 3</a>
+    </div>
   </div>
+</div>
+
 
 
 <center >
@@ -30,7 +35,8 @@
  <h3>Unlock the mind and hands </h3>
 <button id="start" onclick="location.href='login.php'"><b>Create your post</b></button><br><br>
 </div>
-
+ </center>
+ <center>
 <div id="two">
 
 Build a post. Show your stuff. Start a blog<br>
@@ -86,7 +92,7 @@ on popular platforms without any hesitation. </span>
 </center>
 </div>
 <div><center>
-<img id="secure" src="gif/security.gif" alt="secure" >
+<img id="secure" src="gif/security.gif" alt="secure" > <br>
 <h1 id="giphy"> Security </h1>
 <span style="color:rgb(124, 146, 86);" >Your content or Data is completely secure with Qts security so , write share without worry . </span>
 </center>
