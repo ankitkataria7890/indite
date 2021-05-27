@@ -86,7 +86,7 @@ Caputred your moments and show them to your very close ones . Build your attract
 <!--div id="four"  -->
 <div class="grid">
 <div><center>
-<img id="share" src="gif/share.gif"   style="opacity:0.7" alt="share">
+<img id="share" src="gif/share.gif"   style="opacity:0.7" alt="share"><br>
 <h1 id="giphy"> Share </h1>
 <span style="color:rgb(124, 146, 86);">Share your collection or post with your friends
 on popular platforms without any hesitation. </span>
