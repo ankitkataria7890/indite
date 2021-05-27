@@ -11,8 +11,8 @@
 
 </head>
 <body>
-<img src="gallery/logo1.jpg" width="120px" height="120px" alt="logo" style="background:transparent;">
-  <div class="dropdown" style="float:right ; margin:.5em .5em 0 0">
+<img src="gallery/logo1.jpg" width="120px" height="100px" alt="logo" style="background:transparent; float:right">
+  <div class="dropdown" style=" margin:1em 1em 0 0">
     <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Menu
     <span class="caret"></span></button>
     <ul class="dropdown-menu">
