@@ -28,14 +28,15 @@
 
 
 
-<center >
+
 <div id="one" >
-  
+  <center ><br><br>
   <p>Way to world of indite <br> write what you can think </p>
  <h3>Unlock the mind and hands </h3>
 <button id="start" onclick="location.href='login.php'"><b>Create your post</b></button><br><br>
+    </center>
 </div>
- </center>
+
  <center>
 <div id="two">
 
@@ -92,7 +93,7 @@ on popular platforms without any hesitation. </span>
 </center>
 </div>
 <div><center>
-<img id="secure" src="gif/security.gif" alt="secure" > <br>
+<img id="secure" src="gif/security.gif" alt="secure" > 
 <h1 id="giphy"> Security </h1>
 <span style="color:rgb(124, 146, 86);" >Your content or Data is completely secure with Qts security so , write share without worry . </span>
 </center>
