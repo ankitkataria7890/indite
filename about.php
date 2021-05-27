@@ -13,7 +13,7 @@
 </head>
 <body>
  <div>
- <img src="gallery/logo1.jpg" width="120px" height="100px" alt="logo" style="background:transparent; float:right">
+ <img src="gallery/logo1.jpg" width="90px" height="70px" alt="logo" style="background:transparent; float:right">
   <div class="dropdown" style="float:left;margin:1em 0 0 1em">
     <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
       Menu
@@ -28,7 +28,7 @@
 
 
 
-
+<br><br>
 <div id="one" >
   <center ><br><br>
   <p>Way to world of indite <br> write what you can think </p>
