@@ -13,7 +13,7 @@
  .column {
   float: left;
   width: 50%;
- 
+  padding-left:10em;
   /* Should be removed. Only for demonstration */
 }
  </style>
@@ -30,7 +30,7 @@
 </div>
 
  <center>
-<div id="two">
+<!--div id="two">
  <div class="column">
 Build a post. Show your stuff. Start a blog<br>
 And so much more.<h6>All on &nbsp;&nbsp;indite.com</h6>
@@ -57,7 +57,33 @@ And so much more.<h6>All on &nbsp;&nbsp;indite.com</h6>
     </div>
   </div>
  </div>
-  </div>
+  </div-->
+<div id="two">
+ <span class="column">
+    <img id="secure" src="gif/security.gif" alt="secure" style="width:24.5em;height:22em" > 
+ </span>
+
+  <span class="dropdown" style="margin-left: -15em;margin-right: 1em" >
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Menu
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Link 1</a>
+      <a class="dropdown-item" href="#">Link 2</a>
+      <a class="dropdown-item" href="#">Link 3</a>
+    </div>
+</span>
+  <span class="dropdown" >
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Menu
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Link 1</a>
+      <a class="dropdown-item" href="#">Link 2</a>
+      <a class="dropdown-item" href="#">Link 3</a>
+    </div>
+</span>
+</div>
 
 </center>
 <div id="simple1" >
