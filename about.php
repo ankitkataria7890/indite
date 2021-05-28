@@ -56,7 +56,7 @@ And so much more.<h6>All on &nbsp;&nbsp;indite.com</h6>
   </div-->
 <div id="two">
  <span class="column">
-    <img id="secure" src="gif/security.gif" alt="secure" style="width:auto;height:22em" > 
+    <img id="secure" src="gif/security.gif" alt="secure" style="width:24.5em;height:22em" > 
  </span>
 
   <span class="dropdown" style="margin-left: -15em;margin-right: 1em" >
