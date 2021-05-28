@@ -10,11 +10,7 @@
 
 <title>About Us</title>
 <style>
- .column {
-  float: left;
-  width: 50%;
-  padding-left:10em;
-  /* Should be removed. Only for demonstration */
+ Should be removed. Only for demonstration */
 }
  </style>
 </head>
