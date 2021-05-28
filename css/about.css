@@ -177,7 +177,16 @@ padding:5% 7%;
 body{margin:0px;}
 #one{height:60%;
 }
-#two{height:50%;}
+#two{height:80%;}
+.column{
+  
+    float: left;
+   width: 15%;
+    padding-left:3em;
+   
+    /* Should be removed. Only for demonstration */
+  
+}
 #four{height:auto;}
 p{
   font-size:170%;
