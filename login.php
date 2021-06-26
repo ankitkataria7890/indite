@@ -22,9 +22,9 @@
 <div style="font-size:15px ;opacity:0.5"> New to QTs? <span ><a style="color:rgb(51, 187, 255); text-decoration:none;" href="signu.php">Sign Up</a></span>
 </div>
 <br> <br>
-   <!--  
+    
  <div class=vl></div> 
-   -->
+  
         <div class="col">
     
         <input style="border-bottom:0.5px ridge rgb(96,96,96)" type="text" name="username" placeholder="Username" required >
@@ -43,7 +43,6 @@
       </div>
       
     
-      <!--
  <div class="right">
        <div class="hide-md-lg">
           <p>Or sign in manually:</p>
@@ -57,7 +56,7 @@
           </i> Login with Google+
         </a>
       </div>     
-    -->
+  
 </div>
      
   </form>
